@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(0, 0, 32);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(3, 3, 83);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 23px;
+            border: 2px solid transparent;
+            padding: 4px;
+        }
+        nav ul li:hover{
+            border: 2px solid white;
+        }
+        .left {
+            font-size: 17px;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px;
+        }
+
+        .first>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 12px;
+            padding: 12px;
+        }
+
+        .l {
+            color: rgb(116, 7, 116);
+        }
+
+        #element {
+            color: rgb(143, 45, 235);
+        }
+
+        .second {
+            margin: 20px;
+            height: 350px;
+        }
+
+        .second h1 {
+            font: 1.4em sans-serif;
+            margin: 3px;
+        }
+        .box{
+            background-color: azure;
+            width: 60vw;
+            height: 4px;
+            margin: 4px;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        .b1{
+            background-color: azure;
+            width: 2px;
+            height: 10vw;
+        
+        }
+        .b2{
+            background-color: azure;
+            width: 2px;
+            height: 10vw;
+        }
+        .b3{
+            background-color: azure;
+            width: 2px;
+            height: 10vw;
+        }
+        .q{
+            display: flex;
+            max-width: 60vw ;
+            justify-content: space-evenly;
+        }
+        .b1 ul li{
+            list-style: none;
+            margin: 4px;
+        }
+        .b2 ul li{
+            list-style: none;
+            margin: 4px;
+        }
+        .footer{
+            width: auto;
+            height: 350px;
+            background-color: rgb(17, 16, 16);
+            display: flex;
+        }
+        .op{
+            width: 300px;
+            height: auto;
+        }
+        .pp{
+            display: flex;
+        }
+        .m1{
+            margin: 50px;
+        }
+        .m2{
+            margin:50px;
+        }
+        .m3{
+            margin: 50px;
+        }
+        .m4{
+            margin: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Gaurav's protfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html" style="text-decoration: none; color: white;">Home</li></a>
+                    <li><a href="https://www.instagram.com/gauravsapkota102/" style="text-decoration: none; color: white;">About</li></a>
+                    <li>Services</li>
+                    <li><a href="https://github.com/GSNFF/amazon-copy" style="text-decoration: none; color: white;">Projects</a></li>
+                    <li><a href="mailto:EMAILADDRESS" style="text-decoration: none; color: white;">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi My name is <span class="l">Gaurav</span>
+                <div>
+                    and I am a <span id="element"></span>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="download.png" height="80%">
+            </div>
+        </section>
+        <hr>
+        <section class="second">
+            <h1>Past experience</h1>
+            <br><br>
+            <div class="q">
+           <h1 class="o">   </h1>
+           <h1 class="o2"> Year 2021</h1>
+           <h1 class="o3"> Year 2022</h1>
+           <h1 class="o2"> In future </h1>
+        </div>
+            <div class="box">
+                <div class="b1">
+                    <h1>Started Learning</h1>
+                    <br>
+                    <ul>
+                        <li>HTML/css/Javascript</li>
+                        <li>QBasic</li>
+                    </ul>
+                </div>
+                <div class="b2">
+                    <h1>Started Learning</h1>
+                    <br>
+                    <ul>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+                <div class="b3"></div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="op">
+                <h1>Gaurav's Developer<br> protfolio</h1>
+            </div>
+            <div class="pp">
+            <div class="m1"><h2>Home</h2><br><br><h2>contact</h2><br><br><h2>Service</h2><br><br><h2>About</h2></div>
+            <div class="m2"><h2>Home</h2><br><br><h2>contact</h2><br><br><h2>Service</h2><br><br><h2>About</h2></div>
+            <div class="m3"><h2>Home</h2><br><br><h2>contact</h2><br><br><h2>Service</h2><br><br><h2>About</h2></div>
+            <div class="m4"><h2>Home</h2><br><br><h2>contact</h2><br><br><h2>Service</h2><br><br><h2>About</h2></div>
+        </div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web designer', 'Student', 'Youtuber'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
